@@ -9,6 +9,8 @@ The ConvLSTM model leverages the backbone of a LSTM model but applies convolutio
 
 * "SourceCode" folder: This folder has five subfolders, "ablation study", “ConvLSTM mutisteps ahead forecasting”, “ConvLSTM optimal variables combination”, “FC-LSTM multisteps ahead forecasting” and "SimpleRNN multisteps ahead forecasting". The " ablation study " folder contains the source code for testing each variable importance. The “ConvLSTM mutisteps ahead forecasting” folder contains the source code for testing ConvLSTM's performance on different time step length forecasting. The “ConvLSTM optimal variables combination” folder contains the source code for finding the best environmental variables combination to improve the model performance. The “FC-LSTM multisteps ahead forecasting” folder contains the source code testing FC-LSTM's performance on different time step length forecasting. The “SimpleRNN multisteps ahead forecasting” folder contains the source code testing SimpleRNN's performance on different time step length forecasting.
 
+* "ConvLSTM_smoothed_NDVI_all_variables_linearactivate.ipynb" file: This file contains source code for training ConvLSTM model with smoothed NDVI data and all 13 environmental variables.
+
 * "PretrainedModel" zip file: The "PretrainedModel.zip" is a zip file of pretrained models to make the download of the pertained models easier. The zip file is available [here.](https://geoai.geog.buffalo.edu/VariousResources/PretrainedModel.zip)
 
 ### Use the pretrained model 
