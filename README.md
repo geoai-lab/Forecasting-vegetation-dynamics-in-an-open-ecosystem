@@ -1,4 +1,4 @@
-# Forecast vegetation dynamics in open ecosystem
+# Forecasting vegetation dynamics in an open ecosystem
 
 ### Overall description
 The ConvLSTM model leverages the backbone of a LSTM model but applies convolutional operations to process the 2D image at each time step. In this study, we adopted a ConvLSTM model to forecast the NDVI values in Cape Peninsula, which provides a machine-learning based method to estimate the vegetation dynamics in open ecosystem. 
